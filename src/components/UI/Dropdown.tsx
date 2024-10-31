@@ -1,40 +1,4 @@
-// import { useState } from 'react';
 
-// const Dropdown: React.FC = () => {
-//     const [selectedOption, setSelectedOption] = useState<string>('');
-//     const [showBoxes, setShowBoxes] = useState<boolean>(false);
-
-//     const handleOptionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-//         const value = event.target.value;
-//         setSelectedOption(value);
-//         setShowBoxes(value === "Premium Food"); // Show boxes if "Premium Food" is selected
-//     };
-
-//     return (
-//         <div>
-//             <select value={selectedOption} onChange={handleOptionChange}>
-//                 <option value="">Select an option</option>
-//                 <option value="Premium Food">Premium Food</option>
-//                 {/* Add more options here */}
-//             </select>
-
-//             {/* Conditional rendering based on showBoxes state */}
-//             {showBoxes && (
-//                 <div>
-//                     {/* Add content to display when "Premium Food" is selected */}
-//                   <div className='container bg-white h-[400px] w-[100%] ml-[100px] flex'>
-//                     <div className='first container h-[70%] w-[010px] bg-green '>
-//                     <div className='second container'>
-//                     </div>
-//                     </div>
-//                   </div>
-//                 </div>
-//             )}
-//         </div>
-//     );
-// };
-
-// export default Dropdown;
 import { useState } from 'react';
 
 const Dropdown: React.FC = () => {
